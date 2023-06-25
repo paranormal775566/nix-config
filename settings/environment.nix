@@ -1,9 +1,7 @@
 { pkgs }: {
-  environment = {
-    shells = [ pkgs.zsh ];
+  shells = [ pkgs.zsh ];
 
-    systemPackages = with pkgs; [
-      helix
-    ];
-  };
+  systemPackages = with pkgs; [
+    helix
+  ];
 }

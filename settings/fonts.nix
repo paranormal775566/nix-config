@@ -1,15 +1,14 @@
-{ pkgs, apple-fonts-pkgs }: {
-  fonts = {
-    fonts = with pkgs; with apple-fonts-pkgs; [
-      hack-font
+{ pkgs, apple-fonts }: {
+  fontDir.enable = true;
+  fonts = with pkgs; [
+    hack-font
 
-      apple-fonts.sf-pro
-    ];
+    apple-fonts.sf-pro
+  ];
 
-    fontconfig = {
-      defaultFonts = {
-        monospace = [ "hack" ];
-      };
+  fontconfig = {
+    defaultFonts = {
+      monospace = [ "hack" ];
     };
   };
 }

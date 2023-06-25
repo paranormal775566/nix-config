@@ -8,16 +8,19 @@ in
 
   home = {
     username = "admin";
-    homeDirectory = "home/admin";
+    homeDirectory = "/home/admin";
     stateVersion = "23.05";
 
     packages = with pkgs; [
+      alacritty
+
+      nushell
+
       helix
-
+    
       bat
-
-      git
       neofetch
+      git
 
       firefox
       cider

@@ -1,10 +1,6 @@
 {
-  services = {
-    flatpak.enable = true;
-
-    xserver = {
-      layout = "us";
-      xkbVariant = "";
-    };
+  xserver = {
+    layout = "us";
+    xkbVariant = "";
   };
 }

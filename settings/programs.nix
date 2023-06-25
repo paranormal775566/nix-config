@@ -1,15 +1,13 @@
 {
-  programs = {
-    zsh = {
+  zsh = {
+    enable = true;
+    ohMyZsh = {
       enable = true;
-      ohMyZsh = {
-        enable = true;
-        theme = "agnoster";
-        plugins = [
-          "sudo"
-          "git"
-        ];
-      };
+      theme = "agnoster";
+      plugins = [
+        "sudo"
+        "git"
+      ];
     };
   };
 }

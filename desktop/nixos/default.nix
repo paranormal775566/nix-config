@@ -1,8 +1,8 @@
 { pkgs, inputs, ... }: {
   imports = [
-    ./hardware-configuration.nix
+    ./hardware-configuration.nix    
 
-    ../settings    
+    ../gnome.nix
   ];
 
   networking = {
@@ -11,6 +11,13 @@
   };
 
   nixpkgs.config.allowUnfree = true;
+
+  services.flatpak.enable = true;
+
+  xdg.portal = {
+    enable = true;
+    wlr.enable = true;
+  };
 
   users = {
     defaultUserShell = pkgs.zsh;
