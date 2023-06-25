@@ -1,0 +1,4 @@
+inherits = "nord"
+
+"punctuation.delimiter" = "white"
+"operator" = "white"

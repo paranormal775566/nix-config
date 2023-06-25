@@ -1,0 +1,26 @@
+#theme                 = "gruvbox_dark_hard"
+#theme = "nord"
+#theme = "autumn"
+#theme = "catppuccin_macchiato"
+#theme = "everforest_dark"
+#theme = "jellybeans"
+theme = "para-theme"
+
+[editor]
+scroll-lines          = 1
+
+
+[editor.statusline]
+center                = ["version-control"]
+mode.normal           = "Normal"
+mode.insert           = "Insert"
+mode.select           = "Select"
+
+
+[editor.file-picker]
+hidden                = false
+
+[editor.cursor-shape]
+normal                = "block"
+insert                = "bar"
+select                = "underline"
