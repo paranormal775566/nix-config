@@ -1,4 +1,7 @@
 inherits = "nord"
 
+# TODO: file picker highlight color
+#"ui.menu.selected" = { fg = "#81A1C1", modifiers = ["bold"] }
+
 "punctuation.delimiter" = "white"
 "operator" = "white"

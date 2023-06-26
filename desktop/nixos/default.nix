@@ -2,7 +2,8 @@
   imports = [
     ./hardware-configuration.nix    
 
-    ../gnome.nix
+    #../gnome.nix
+    ../dwm.nix
   ];
 
   networking = {
