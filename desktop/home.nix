@@ -22,7 +22,8 @@ in
       neofetch
       git
 
-      firefox
+      #firefox
+      brave
       cider
     ];
 
