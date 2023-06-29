@@ -4,6 +4,7 @@
 
     #../gnome.nix
     ../dwm.nix
+    #../river.nix
   ];
 
   networking = {
